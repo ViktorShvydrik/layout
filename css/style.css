@@ -1,0 +1,127 @@
+@import url(../fonts/montserrat/montserrat.css);
+
+header {
+  height: 90px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(https://s22.postimg.cc/6ngc7scfl/image.png);
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  display: block;
+  width: 7em;
+  padding: 10px;
+  padding-top: 25px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20pt;
+}
+header ul li a:hover {
+  color: #333;
+}
+div.us-cont {
+  display: flex;
+  padding-top: 94px;
+  padding-left: 37px;
+  background-image: url(https://s22.postimg.cc/hlrlq8gj5/BG-us.png);
+  height: 930px;
+}
+div.logo  {
+  height: 674px;
+  width: 674px;
+  
+}
+
+ div.shadow{
+  position: absolute;
+  left: 60px;
+  top: 110px;
+  padding: 0;
+  width: 550px;
+  height: 880px;
+  background: url(../img/us/shadow.png);
+  background-size: cover;
+}
+div.shadow div.iphone{
+  width: 394px;
+  height: 782px;
+  margin-top: 60px;
+  margin-left: 140px;
+  background: url(../img/us/iphoneX.png);
+  background-size: cover;
+}
+
+div.iphone div.screen {
+   height: 782px;
+   width: 394px;
+   padding-left: 28px;
+   padding-top: 20px;
+}
+
+div.array{
+  margin-left: 240px;
+  text-align: center;
+  
+}
+
+div.array div.arr{
+  text-align: center;
+}
+
+div.array div.arr:nth-child(1){
+  position: relative;
+  top: 24px;
+}
+div.array div.arr:nth-child(2){
+  position: relative;
+  top: 15px;
+}
+
+div.us-cont div.content{
+  width: 760px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #fff;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 24pt;
+
+
+}
+
+div.content div.main {
+  margin-bottom: 45px;
+  line-height: 1.7;
+}
+
+div.content div.small{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0;
+
+
+}
+
+div.content div.small:nth-child(2){
+  margin: 0;
+  margin-right: 200px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*border: 1px dashed red;*/
