@@ -1,0 +1,128 @@
+header {
+  height: 90px;
+  width: 100%;
+  background-image: url(https://s22.postimg.cc/6ngc7scfl/image.png);
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+header a {
+  display: block;
+  margin: 25px 1% 0 1%;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 26pt ;
+}
+header a:hover {
+  color: #333;
+}
+
+div.us-cont {
+  display: flex;
+  padding-top: 94px;
+  padding-left: 37px;
+  background-image: url(https://s22.postimg.cc/hlrlq8gj5/BG-us.png);
+  height: auto;
+}
+div.logo  {
+  height: auto;
+  flex: 3 0 674px;
+}
+
+ div.shadow{
+  position: absolute;
+  left: 60px;
+  top: 110px;
+  padding: 0;
+  width: 550px;
+  height: 880px;
+  background: url(../img/us/shadow.png);
+  background-size: cover;
+}
+div.shadow div.iphone{
+  width: 394px;
+  height: 782px;
+  margin-top: 60px;
+  margin-left: 140px;
+  background: url(../img/us/iphoneX.png);
+  background-size: cover;
+}
+
+div.iphone div.screen {
+  padding-left: 29px;
+   padding-top: 20px;
+}
+
+div.iphone div.screen2 {
+   height: 720px;
+   width: 310px;
+   padding-left: 28px;
+   padding-top: 20px;
+   background: url(../img/us/screen.png);
+  background-size: cover;
+}
+
+div.array{
+  margin-left: 12%;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+div.array div.arr{
+  text-align: center;
+}
+
+div.array div.arr:nth-child(1){
+  position: relative;
+  top: 28px;
+}
+div.array div.arr:nth-child(2){
+  position: relative;
+  top: 15px;
+}
+
+div.us-cont div.content{
+  width: 760px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #fff;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 24pt;
+  flex-grow: 0;
+  flex-shrink: 1;
+
+}
+
+div.content div.main {
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+div.content div.small{
+  width: 250px;
+  height: auto;
+  text-align: center;
+  font-size: 22pt;
+  padding: 0 20px;
+  margin: 0;
+
+}
+
+div.content div.small:nth-child(3){
+  width: 15%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
