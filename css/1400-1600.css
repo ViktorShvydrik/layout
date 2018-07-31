@@ -1,0 +1,63 @@
+@media screen and (max-width: 1600px) and (min-width:1370px) {
+	header {
+	  height: 60px;
+	}
+
+
+	header a {
+		font-size: 22pt ;
+		margin: 20px 1% 0 1%;
+	}
+
+	div.logo  {
+	  height: auto;
+	  flex: 3 0 520px;
+	}
+
+	div.shadow{
+	  position: absolute;
+	  left: 25px;
+	  top: 80px;
+	  padding: 0;
+	  width: 460px;
+	  height: 760px;
+
+	}
+	div.shadow div.iphone{
+	  width: 340px;
+	  height: 675px;
+	  margin-top: 50px;
+	  margin-left: 120px;
+
+	}
+	div.iphone div.screen {
+	  padding-left: 25px;
+	   padding-top: 20px;
+	}
+
+	div.iphone div.screen2 {
+	  width: 265px;
+	  height: 620px;
+	}
+
+	div.array{
+	  margin-left: 7%;
+
+	}
+
+
+	div.us-cont div.content{
+		 font-size: 21pt;
+	}
+
+	div.content div.small{
+		width: 220px;
+		font-size: 19pt;
+	}
+
+	div.content div.small:nth-child(3){
+		  width: 8%;
+	}
+
+
+}
