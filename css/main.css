@@ -1,3 +1,8 @@
+body{
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
 header {
   height: 90px;
   width: 100%;
@@ -29,6 +34,7 @@ div.us-cont {
   padding-left: 37px;
   background-image: url(https://s22.postimg.cc/hlrlq8gj5/BG-us.png);
   height: auto;
+
 }
 div.logo  {
   height: auto;
@@ -69,10 +75,11 @@ div.iphone div.screen2 {
 }
 
 div.array{
-  margin-left: 12%;
+  margin-left: 6%;
   text-align: center;
   flex-grow: 0;
   flex-shrink: 1;
+  margin-bottom: 70px;
 }
 
 div.array div.arr{
@@ -89,7 +96,7 @@ div.array div.arr:nth-child(2){
 }
 
 div.us-cont div.content{
-  width: 760px;
+  width: 880px;
   height: auto;
   display: flex;
   flex-flow: row wrap;
@@ -120,6 +127,141 @@ div.content div.small{
 
 div.content div.small:nth-child(3){
   width: 15%;
+}
+
+div.vk-decor{
+  width: 280px;
+  position: absolute;
+  left: 84.8%;
+  top: 820px;
+}
+
+div.vk-decor img{
+  width: 300px;
+  height: auto;
+}
+
+section.VK_FB_INST{
+  height: 3200px;
+  background: url(../img/fb/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.vk{
+  display: flex;
+  width: 100%;
+  height: 1100px;
+  background: url(../img/vk/background.png);
+  /*border: 1px dashed red;*/
+}
+
+div.vk div.left{
+  height: 100%;
+  
+}
+
+div.vk div.left div{
+  width: 200px;
+  height: 780px;
+  background: url(../img/vk/decor2-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+div.vk div.right{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+div.vk div.right div.header_vk{
+  margin-top: 70px;
+  margin-left: 320px;
+  margin-right: 450px;
+  width: 75%;
+  height: 150px;
+  text-align: center;
+  font-size: 36pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+
+div.vk div.right div.button {
+  width: 400px;
+  height: 120px;
+  margin-top: 320px;
+  margin-left: 90px
+
+}
+
+div.vk div.right div.logoVK{
+  margin-right: 30px;
+  margin-top: 130px;
+  width: 350px;
+ height: 800px;
+
+}
+
+div.vk div.right div.string{
+  display: flex;
+  flex-flow: column;
+  font-size: 22pt;
+  width: 42%;
+  margin-top: 85px;
+  word-wrap: break-word;
+
+}
+
+div.vk div.right div.stringEl{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 40px;
+}
+ 
+ div.vk div.right div.stringEl div {
+  align-self: center;
+ }
+
+div.vk div.right div.stringEl div:nth-child(1){
+  margin-right: 30px;
+}
+
+
+div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
+  width: 220px;
+   }
+div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
+  width: 165px;
+   } 
+div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
+  width: 240px;
+   }   
+
+div.fb{
+  height: 900px;
+
+}
+
+div.inst{
+  height: 1250px;
+  background: url(../img/inst/background.png);
+  background-size: cover;
+}
+
+button{
+  margin-top: 10px;
+  background: #f2f6f8; 
+    border: 1px solid #7a7b7e; 
+    width: 100%; 
+    height: 110px; 
+    border-radius: 20px;
+    box-shadow: 10px -5px 0 5px #5a5f98;
+    font-size: 36pt;
+    color: #5870a8
 }
 
 img {

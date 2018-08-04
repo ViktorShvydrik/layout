@@ -5,7 +5,7 @@
 	}
 
 	header a {
-		font-size: 24pt ;
+		font-size: 21pt ;
 		margin: 20px 1% 0 1%;
 	}
 
@@ -59,6 +59,90 @@
 	div.content div.small:nth-child(3){
 		  width: 11%;
 	}
+
+/*VK*/
+
+div.vk-decor{
+  left: 82%;
+  top: 790px;
+}
+
+
+div.vk div.left div{
+  width: 180px;
+  height: 680px;
+}
+
+
+div.vk div.right div.header_vk{
+  margin-top: 70px;
+  margin-left: 19.5%;
+  margin-right: 16%;
+}
+
+div.vk div.right div.button {
+  width: 24%;
+  margin-top: 320px;
+  margin-left: 0px
+
+}
+
+div.vk div.right div.logoVK{
+  width: 20%;
+ height: 800px;
+
+}
+
+div.vk div.right div.string{
+  font-size: 20pt;
+  width: 39%;
+
+}
+
+div.vk div.right div.stringEl{
+  margin-bottom: 40px;
+}
+ 
+
+
+div.vk div.right div.stringEl div:nth-child(1){
+  margin-right: 30px;
+}
+
+
+div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
+  width: 220px;
+   }
+div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
+  width: 150px;
+   } 
+div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
+  width: 240px;
+   }   
+
+div.fb{
+  height: 900px;
+
+}
+
+div.inst{
+  height: 1250px;
+  background: url(../img/inst/background.png);
+  background-size: cover;
+}
+
+button{
+  margin-top: 10px;
+  background: #f2f6f8; 
+    border: 1px solid #7a7b7e; 
+    width: 100%; 
+    height: 110px; 
+    border-radius: 20px;
+    box-shadow: 10px -5px 0 5px #5a5f98;
+    font-size: 32pt;
+    color: #5870a8
+}
+
 
 
 }
