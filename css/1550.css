@@ -120,27 +120,70 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
   width: 240px;
    }   
 
+/*FB*/
+
+div.FB-decor{
+  width: 25%;
+  left: 76.4%;
+  top: 1900px;
+ 
+}
+
 div.fb{
-  height: 900px;
+  height: 720px;
+  font-size: 28pt;
 
 }
 
-div.inst{
-  height: 1250px;
-  background: url(../img/inst/background.png);
-  background-size: cover;
+div.FBString {
+
+  margin-left: 80px;
 }
+
+div.FBString div.FBStringEl {
+
+  margin-bottom: 100px;
+  
+}
+
+div.FBString div.FBStringEl div{
+  margin-right: 20px
+}
+
+div.FBString div.FBStringEl div:nth-child(2){
+  width: 770px;
+}
+
+div.FBString div.FBStringEl:nth-child(3) div:nth-child(2){
+   width: 960px;
+}
+
+
+
+div.header_fb{
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: -290px;
+  font-size: 32pt;
+  
+}
+
+div.logoFB {
+  width: 250px;
+  height: 550px;
+  
+}
+
+div.header_fb div.button{
+  width: 350px;
+   
+}
+
 
 button{
-  margin-top: 10px;
-  background: #f2f6f8; 
-    border: 1px solid #7a7b7e; 
-    width: 100%; 
-    height: 110px; 
-    border-radius: 20px;
-    box-shadow: 10px -5px 0 5px #5a5f98;
-    font-size: 32pt;
-    color: #5870a8
+  font-size: 32pt;
+   
 }
 
 
