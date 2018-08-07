@@ -1,11 +1,11 @@
-@media screen and (max-width: 1600px) and (min-width:1370px) {
+@media screen and (max-width: 1599px) and (min-width:1370px) {
 	header {
 	  height: 60px;
 	}
 
 
 	header a {
-		font-size: 22pt ;
+		font-size: 18pt ;
 		margin: 20px 1% 0 1%;
 	}
 
@@ -41,7 +41,7 @@
 	}
 
 	div.array{
-	  margin-left: 7%;
+	  margin-left: 6%;
 
 	}
 
@@ -80,7 +80,6 @@ div.vk div.right div.header_vk{
 }
 
 div.vk div.right div.button {
-  width: 23%;
   margin-top: 320px;
   margin-left: 0px
 
@@ -111,7 +110,7 @@ div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
   width: 220px;
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
-  width: 135px;
+  width: 152px;
    } 
 div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
   width: 240px;
@@ -128,7 +127,7 @@ div.FB-decor{
 
 div.fb{
   height: 720px;
-  font-size: 20pt;
+  font-size: 18pt;
 
 }
 
@@ -161,7 +160,7 @@ div.header_fb{
   display: flex;
   position: relative;
   top: 100px;
-  left: -160px;
+  left: -210px;
   font-size: 28pt;
   
 }
@@ -172,18 +171,68 @@ div.logoFB {
   
 }
 
-div.header_fb div.button{
-  width: 300px;
-   
+/*inst*/
+
+div.inst{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 1230px;
+ 
 }
 
-div.header_fb button{
-font-size: 26pt;
+div.inst div.decor{
+  margin-top: 510px;
+  width: 25%;
+  
+}
+
+div.logoInst{
+	margin-top: 510px;
+	margin-right: 22%;
+	font-size: 20pt;
+}
+
+div.logoInst button{
+  margin-top: 10px;
+}
+
+div.InstString{
+  margin-top: 280px;
+  font-size: 18pt;
+  text-align: right;
+}
+
+div.InstStringEl {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+
+div.InstStringEl div:nth-child(1){
+  width: 380px;
+}
+
+div.InstStringEl div:nth-child(2){
+margin-right: 55px;
+width: 90px;
 }
 
 button{
-  font-size: 26pt;
-  height: 80px;
+  font-size: 23pt;
+  width: 300px;
+  height: 90px;
    
 }
 

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1370px) and (min-width:1160px) {
+@media screen and (max-width: 1369px) and (min-width:1160px) {
 	header {
 	  height: 60px;
 	}
@@ -41,7 +41,7 @@
 	}
 
 	div.array{
-	  margin-left: 5%;
+	  margin-left: 11%;
 
 	}
 
@@ -58,6 +58,10 @@
 	div.content div.small:nth-child(3){
 		  width: 5%;
 	}
+
+section.VK_FB_INST{
+  height: 3000px;
+}
 
 /*VK*/
 
@@ -118,6 +122,7 @@ div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
   width: 80px;
+  margin-right: 40px;
    } 
 div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
   width: 140px;
@@ -133,18 +138,16 @@ div.FB-decor{
 }
 
 div.fb{
-  height: 720px;
+  height: 600px;
   font-size: 18pt;
 
 }
 
 div.FBString {
-
   margin-left: 40px;
 }
 
 div.FBString div.FBStringEl {
-
   margin-bottom: 100px;
   
 }
@@ -157,6 +160,11 @@ div.FBString div.FBStringEl div:nth-child(2){
   width: 350px;
 }
 
+div.FBString div.FBStringEl:nth-child(3) div:nth-child(1){
+	width: 150px;
+	margin-right: 0;
+}
+
 div.FBString div.FBStringEl:nth-child(3) div:nth-child(2){
    width: 540px;
 }
@@ -166,31 +174,82 @@ div.FBString div.FBStringEl:nth-child(3) div:nth-child(2){
 div.header_fb{
   display: flex;
   position: relative;
-  top: 100px;
-  left: -50px;
+  top: 90px;
+  left: -170px;
   font-size: 28pt;
   
 }
 
 div.logoFB {
-  width: 250px;
-  height: 550px;
+  width: 170px;
+  height: 370px;
+  margin-right: 50px;
+}
+
+/*inst*/
+
+div.inst{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 1130px;
+}
+
+div.inst div.decor{
+  margin-top: 510px;
+  width: 25%;
   
 }
 
-div.header_fb div.button{
-  width: 300px;
- 
-   
+div.logoInst{
+  margin-top: 470px;
+	margin-right: 22%;
+  font-size: 20pt;
 }
 
-div.header_fb button{
-font-size: 26pt;
+div.logoInst div:first-child{
+	width: 280px;
+}
+
+div.InstString{
+  margin-top: 280px;
+  font-size: 18pt;
+  text-align: right;
+}
+
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 20px;
+}
+
+div.InstStringEl div:nth-child(1){
+  width: 380px;
+}
+
+div.InstStringEl div:nth-child(2){
+margin-right: 45px;
+width: 75px;
+}
+
+
+
+div.logoInst button {
+    margin-top: 10px;
+    
+     
 }
 
 button{
-  font-size: 20pt;
-  height: 80px;
-   
+  font-size: 19pt;
+  width: 250px;
+  height: 70px;
+  
 }
 }

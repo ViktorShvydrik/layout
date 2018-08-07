@@ -59,6 +59,11 @@
 	div.content div.small:nth-child(3){
 		  width: 5%;
 	}
+
+section.VK_FB_INST{
+  height: 3000px;
+}
+
 /*VK*/
 
 div.vk-decor{
@@ -191,11 +196,74 @@ div.header_fb div.button{
 div.header_fb button{
 font-size: 20pt;
 }
+  
+/*inst*/
+
+div.inst{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 1130px;
+}
+
+div.inst div.decor{
+  margin-top: 510px;
+  width: 25%;
+  
+}
+
+div.logoInst{
+	margin-top: 470px;
+	margin-right: 17%;
+	font-size: 18pt;
+}
+
+
+div.InstString{
+  margin-top: 280px;
+  font-size: 14pt;
+  text-align: right;
+}
+
+div.InstStringEl {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 20px;
+}
+
+div.InstStringEl div:nth-child(1){
+  width: 340px;
+}
+
+div.InstStringEl div:nth-child(2){
+margin-right: 45px;
+width: 75px;
+}
+
+
+
+div.logoInst button {
+    margin-top: 10px;
+    
+     
+}
 
 button{
-  font-size: 20pt;
-  height: 80px;
-   
+  font-size: 19pt;
+  width: 250px;
+  height: 70px;
+  
 }
 
 }

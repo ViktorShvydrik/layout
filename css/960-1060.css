@@ -1,4 +1,4 @@
-@media screen and (max-width: 1060px) and (min-width:960px) {
+@media screen and (max-width: 1059px) and (min-width:960px) {
 	header {
 	  height: 60px;
 	}
@@ -42,7 +42,13 @@
 
 	div.array{
 	  margin-left: 3%;
+	}
 
+	div.array div.arr:nth-child(1){
+	  top: 26px;
+	}
+	div.array div.arr:nth-child(2){
+	  top: 13px;
 	}
 
 
@@ -59,6 +65,11 @@
 	div.content div.small:nth-child(3){
 		  width: 0.5%;
 	}
+
+
+section.VK_FB_INST{
+  height: 2850px;
+}
 
 /*VK*/
 
@@ -81,8 +92,8 @@ div.vk div.left div{
 
 div.vk div.right div.header_vk{
   margin-top: 70px;
-  margin-left: 10%;
-  margin-right: 25%;
+  margin-left: 12%;
+  margin-right: 20%;
   font-size: 22pt;
 }
 
@@ -136,7 +147,6 @@ div.FB-decor{
 div.fb{
   height: 600px;
   font-size: 14pt;
-  border: 1px dashed red;
 }
 
 div.FBString {
@@ -193,10 +203,73 @@ div.header_fb button{
 font-size: 20pt;
 }
 
+/*inst*/
+
+div.inst{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 1050px;
+}
+
+div.inst div.decor{
+  margin-top: 510px;
+  width: 25%;
+  
+}
+
+div.logoInst{
+	margin-top: 470px;
+	margin-right: 14%;
+	font-size: 16pt;
+}
+
+
+div.InstString{
+  margin-top: 280px;
+  font-size: 14pt;
+  text-align: right;
+}
+
+div.InstStringEl {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 40px;
+}
+
+div.InstStringEl div{
+ align-self: center;
+  margin-bottom: 55px;
+  margin-right: 20px;
+}
+
+div.InstStringEl div:nth-child(1){
+  width: 340px;
+}
+
+div.InstStringEl div:nth-child(2){
+margin-right: 35px;
+width: 65px;
+}
+
+
+
+div.logoInst button {
+    margin-top: 10px;
+    
+     
+}
+
 button{
-  font-size: 18pt;
-  height: 80px;
-   
+  font-size: 19pt;
+  width: 220px;
+  height: 70px;
+  
 }
 
 }
