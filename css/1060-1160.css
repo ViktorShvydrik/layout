@@ -67,8 +67,8 @@ section.VK_FB_INST{
 /*VK*/
 
 div.vk-decor{
-  left: 80%;
-  top: 84%;
+  left: 80.7%;
+  top: 805px;
   width: 220px;
 }
 
@@ -132,7 +132,7 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
 
 div.FB-decor{
   width: 25%;
-  left: 74.2%;
+  left: 75%;
   top: 1950px;
  
 }
@@ -260,7 +260,7 @@ div.logoInst button {
 /*OK*/
 
 div.ok {
-  height: 1030px;
+  height: 680px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;

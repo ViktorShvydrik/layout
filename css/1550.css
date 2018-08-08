@@ -63,7 +63,7 @@
 /*VK*/
 
 div.vk-decor{
-  left: 83.9%;
+  left: 84.3%;
   top: 790px;
 }
 
@@ -124,7 +124,7 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
 
 div.FB-decor{
   width: 25%;
-  left: 76.5%;
+  left: 76.9%;
   top: 1900px;
  
 }
@@ -242,7 +242,7 @@ width: 110px;
 /*OK*/
 
 div.ok {
-  height: 1030px;
+  height: 820px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
@@ -267,7 +267,7 @@ margin-right: 30px;
 }
 
 div.OKtStringEl div:nth-child(2){
-  width: 630px;
+  width: 660px;
 }
 
 div.logoOK {

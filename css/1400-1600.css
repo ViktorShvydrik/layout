@@ -41,7 +41,7 @@
 	}
 
 	div.array{
-	  margin-left: 6%;
+	  margin-left: 12%;
 
 	}
 
@@ -56,13 +56,13 @@
 	}
 
 	div.content div.small:nth-child(3){
-		  width: 8%;
+		  width: 2%;
 	}
 
 /*VK*/
 
 div.vk-decor{
-  left: 81.5%;
+  left: 82.3%;
   top: 780px;
 }
 
@@ -120,7 +120,7 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
 
 div.FB-decor{
   width: 25%;
-  left: 74.5%;
+  left: 75%;
   top: 1950px;
  
 }
@@ -159,8 +159,8 @@ div.FBString div.FBStringEl:nth-child(3) div:nth-child(2){
 div.header_fb{
   display: flex;
   position: relative;
-  top: 100px;
-  left: -210px;
+  top: 110px;
+  left: -240px;
   font-size: 28pt;
   
 }
@@ -188,7 +188,7 @@ div.inst div.decor{
 
 div.logoInst{
 	margin-top: 510px;
-	margin-right: 22%;
+	margin-right: 23%;
 	font-size: 20pt;
 }
 
@@ -203,7 +203,6 @@ div.logoInst button{
 div.InstString{
   margin-top: 280px;
   font-size: 18pt;
-  text-align: right;
 }
 
 div.InstStringEl {
@@ -236,7 +235,7 @@ width: 90px;
 /*OK*/
 
 div.ok {
-  height: 1030px;
+  height: 830px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
