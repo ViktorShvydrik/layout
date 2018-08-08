@@ -195,14 +195,14 @@ div.inst{
 }
 
 div.inst div.decor{
-  margin-top: 510px;
+  margin-top: 470px;
   width: 25%;
   
 }
 
 div.logoInst{
   margin-top: 470px;
-	margin-right: 22%;
+	margin-right: 19%;
   font-size: 20pt;
 }
 
@@ -241,9 +241,56 @@ width: 75px;
 
 
 div.logoInst button {
-    margin-top: 10px;
-    
-     
+    margin-top: 10px;  
+}
+
+
+/*OK*/
+
+div.ok {
+  height: 1030px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  color: #e77719;
+  font-size: 18pt;
+}
+
+div.OKString{
+  margin-top: 220px;
+  margin-right: 3%;
+  margin-left: 80px;
+}
+
+div.OKtStringEl {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 100px;
+}
+
+div.OKtStringEl div:nth-child(1){
+margin-right: 30px;
+width: 80px;
+}
+
+div.OKtStringEl div:nth-child(2){
+  width: 500px;
+}
+
+div.logoOK {
+  margin-top: 310px;
+  margin-right: 0;
+  font-size: 20pt;
+}
+
+div.decorOK{
+  margin-top: 160px;
+  width: 230px;
+  height: 600px;
+}
+
+div.decorOK img{
+  width: 230px;
 }
 
 button{
