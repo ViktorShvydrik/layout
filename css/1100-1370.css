@@ -41,7 +41,7 @@
 	}
 
 	div.array{
-	  margin-left: 11%;
+	  margin-left: 6%;
 
 	}
 
@@ -248,7 +248,7 @@ div.logoInst button {
 /*OK*/
 
 div.ok {
-  height: 735px;
+  height: 760px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
@@ -292,6 +292,95 @@ div.decorOK{
 div.decorOK img{
   width: 230px;
 }
+
+/*DEV*/
+
+div.dev{
+  height: 920px;
+  font-size: 16pt;
+}
+
+div.contentDev {
+  width: 100%;
+  height: 970px;
+  margin-top: 100px;
+}
+
+div.titleDev {
+  flex: 1 1 49.8%;
+  height: 270px;
+  font-size: 28pt;
+}
+
+div.titleDev div {
+  margin-top: 95px;
+  margin-left: 8%;
+}
+
+div.buttonDev {
+  flex: 1 1 49.8%;
+  height: 270px;
+}
+
+
+div.buttonDev div{
+  margin-left: 8%;
+  margin-bottom: 25px;
+}
+
+div.devTwo{
+  height: 370px;
+}
+
+div.devEars{
+  flex: 1 1 23%;
+}
+
+div.leftDev div.devEl{
+  width: 44%;
+  height: 120px;
+}
+
+div.devEl div:nth-child(1){
+	width: 65px;
+}
+
+div.leftDev div.devEl:nth-child(1){
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+div.screenMac{
+  flex: 1 1 580px;
+  margin-top: 2px;
+  background-image: url(../img/dev/mac-screen580.png);
+}
+
+div.rightDev div.devEl {
+  width: 44%;
+}
+
+div.rightDev div.devEl:nth-child(1), div.rightDev div.devEl:nth-child(2){
+  margin-top: 150px;
+  margin-bottom: 40px;
+  height: 120px;
+}
+
+div.rightDev div.devEl:nth-child(3) div:first-child{
+  margin-bottom: 15px;
+}
+
+div.rightDev div.devEl:nth-child(4) div:first-child{
+  margin-bottom: 0;
+}
+
+
+div.key{
+  flex: 1 1 99%;
+  height: 130px;
+  background-image: url(../img/dev/mac-keyboard580.png);
+}
+
 
 button{
   font-size: 19pt;

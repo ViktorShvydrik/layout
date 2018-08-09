@@ -448,6 +448,7 @@ div.dev{
   align-items: center;
   background-image: url(../img/dev/background.png);
   background-size: cover;
+  font-size: 24pt;
 }
 
 div.contentDev {
@@ -486,14 +487,20 @@ div.buttonDev button {
 }
 
 div.buttonDev div{
-  margin-left: 90px;
+  margin-left: 5.5%;
   margin-bottom: 25px;
   align-self: flex-end;
 }
 
-div.leftDev{
-  flex: 1 1 24.8%;
+div.devTwo{
   height: 600px;
+}
+
+div.devEars{
+  flex: 1 1 23%;
+}
+
+div.leftDev{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -503,12 +510,15 @@ div.leftDev{
 div.devEl {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
   align-items: center;
 }
 
+div.devEl div:nth-child(1){
+  margin-bottom: 15px;
+}
+
 div.leftDev div.devEl{
-  width: 49%;
+  width: 44%;
   height: 160px;
 }
 
@@ -519,28 +529,18 @@ div.leftDev div.devEl:nth-child(1){
 
 
 
-div.screen{
-  flex: 1 1 50%;
+div.screenMac{
+  flex: 1 1 940px;
   display: flex;
   align-items: center;
-  height: 600px;
   margin-top: 2px;
-  background-image: url(../img/dev/mac-screen.png);
+  background-image: url(../img/dev/mac-screen2.png);
+  background-size: cover;
   background-position: center;
 
 }
 
-div.screen2{
-  margin: 46px 30px 36px 32px;
-  width: 93.3%;
-  height: 529px;
-  background-image: url(../img/dev/screen.png);
-  background-size: cover;
-}
-
 div.rightDev{
-  flex: 1 1 24.8%;
-  height: 600px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -549,12 +549,17 @@ div.rightDev{
 }
 
 div.rightDev div.devEl {
-  width: 49%;
+  width: 44%;
 }
 
 div.rightDev div.devEl:nth-child(1), div.rightDev div.devEl:nth-child(2){
+  margin-top: 50px;
   margin-bottom: 40px;
   height: 160px;
+}
+
+div.rightDev div.devEl:nth-child(3), div.rightDev div.devEl:nth-child(4){
+  height: 220px;
 }
 
 div.rightDev div.devEl:nth-child(3) div:first-child{
@@ -562,14 +567,17 @@ div.rightDev div.devEl:nth-child(3) div:first-child{
 }
 
 div.rightDev div.devEl:nth-child(4) div:last-child{
-  margin-top: 20px;
   text-align: center;
 }
 
+div.rightDev div.devEl:nth-child(4) div:first-child{
+  margin-bottom: 0;
+}
+
 div.key{
-  flex: 1 1 99.9%;
-  height: 90px;
-  background-image: url(../img/dev/mac-keyboard.png);
+  flex: 1 1 99%;
+  height: 130px;
+  background-image: url(../img/dev/mac-keyboard2.png);
   background-repeat: no-repeat;
   background-position: top;
 }
