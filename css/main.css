@@ -5,9 +5,6 @@ body{
   margin: 0;
 }
 
-.mobile{
-  display: none;
-}
 
 header {
   height: 90px;
@@ -845,4 +842,8 @@ button{
 img {
     max-width: 100%;
     height: auto;
+}
+
+div.mobile{
+  display: none;
 }

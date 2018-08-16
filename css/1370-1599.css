@@ -381,6 +381,11 @@ div.key{
   background-image: url(../img/dev/mac-keyboard730.png);
 }
 
+
+section.market_cont {
+  height: 2030px;
+}
+
 /*MARKETING*/
 
 div.market {
@@ -521,6 +526,10 @@ button{
   width: 300px;
   height: 90px;
    
+}
+
+div.mobile{
+  display: none;
 }
 
 }
