@@ -3,11 +3,11 @@
 	  height: 60px;
 	}
 
-
-	header a {
-		font-size: 14pt ;
-		margin: 20px 1% 0 1%;
+	#navMenu li {
+		padding: 16px 1%;
+  		font-size: 14pt
 	}
+
 
 	div.logo  {
 	  height: auto;
@@ -53,7 +53,7 @@
 
 
 	div.us-cont div.content{
-		 font-size: 19pt;
+		 font-size: 12.5pt;
 	}
 
 	div.content div.small{
@@ -62,7 +62,7 @@
 		
 	}
 
-	div.content div.small:nth-child(3){
+	div.content div.small:nth-child(4){
 		  width: 5%;
 	}
 
@@ -75,7 +75,7 @@ section.VK_FB_INST{
 /*VK*/
 
 div.vk-decor{
-  top: 840px;
+  top: 860px;
 }
 
 div.vk-decor div{

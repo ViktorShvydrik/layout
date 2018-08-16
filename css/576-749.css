@@ -1,0 +1,110 @@
+@media screen and (max-width: 749px) and (min-width:576px) {
+
+
+
+
+#menu-icon{
+	position: absolute;
+  display: block;
+}
+
+header{
+  display: none;
+}
+
+.desctop{
+	display: none;
+}
+
+.mobile{
+	display: block;
+}
+
+#nav li {
+	display: block;
+    padding: 0;
+}
+ #nav a{
+    text-decoration: none;
+    color: white;
+   font-size: 14px;
+    font-weight: bold;
+}
+
+div.us-cont {
+	width: 100%;
+	height: 1100px;
+	padding: 0;
+  display: flex;
+  background-image: url(../img/mobil/us.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+div.logo  {
+	display: none;
+  height: auto;
+  flex: 3 0 674px;
+}
+
+
+
+div.us-cont div.content{
+  width: 100%;
+  height: 680px;
+  margin-top: 42%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14pt;
+  flex-grow: 0;
+  flex-shrink: 1;
+  order: 1;
+}
+
+div.content div.main {
+	width: 63%;
+	padding: 3% 3% 0 1%;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+div.content div.small{
+  width: 28%;
+  height: auto;
+  text-align: center;
+  font-size: 18pt;
+  padding: 0 20px;
+  margin: 0;
+  line-height: 1.7;
+}
+
+div.content div.small b{
+	font-size: 28pt;
+}
+
+div.content div.small:nth-child(3){
+	order: 2;
+}
+
+div.content div.small:nth-child(4){
+	width: 25%;
+	order: 1;
+}
+
+div.content div.small:nth-child(5){
+  
+  order: 3;
+}
+
+div.content div.small:nth-child(6){
+	order: 4;
+}
+div.content div.small:nth-child(7){
+	order: 4;
+}
+
+}

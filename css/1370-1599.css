@@ -4,9 +4,9 @@
 	}
 
 
-	header a {
-		font-size: 18pt ;
-		margin: 20px 1% 0 1%;
+	#navMenu li {
+		padding: 16px 1%;
+  		font-size: 19pt
 	}
 
 	div.logo  {
@@ -47,22 +47,22 @@
 
 
 	div.us-cont div.content{
-		 font-size: 21pt;
+		 font-size: 15.8pt;
 	}
 
 	div.content div.small{
 		width: 220px;
-		font-size: 19pt;
+		font-size: 22pt;
 	}
 
-	div.content div.small:nth-child(3){
+	div.content div.small:nth-child(4){
 		  width: 2%;
 	}
 
 /*VK*/
 
 div.vk-decor{
-  top: 800px;
+  top: 820px;
 }
 
 div.vk-decor div{

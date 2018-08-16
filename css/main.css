@@ -5,37 +5,47 @@ body{
   margin: 0;
 }
 
+.mobile{
+  display: none;
+}
+
 header {
   height: 90px;
   width: 100%;
   background-image: url(https://s22.postimg.cc/6ngc7scfl/image.png);
 }
 
-nav{
+.nav-wrap, #menu-icon, #nav{
+  display: none;
+}
+
+
+#navMenu{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
-
-
-header a {
+#navMenu li {
   display: block;
-  margin: 25px 1% 0 1%;
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-  font-size: 26pt ;
+  padding: 25px 1%;
+  font-size: 26pt
 }
-header a:hover {
+ #navMenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#navMenu a:hover {
   color: #333;
-}
+} 
 
 div.us-cont {
   display: flex;
   padding-top: 94px;
   padding-left: 37px;
-  background-image: url(https://s22.postimg.cc/hlrlq8gj5/BG-us.png);
-  height: auto;
+  background-image: url(../img/us/BG-us.png);
 
 }
 div.logo  {
@@ -89,6 +99,7 @@ div.array div.arr{
 }
 
 div.array div.arr:nth-child(1){
+
   position: relative;
   top: 28px;
 }
@@ -99,14 +110,13 @@ div.array div.arr:nth-child(2){
 
 div.us-cont div.content{
   width: 905px;
-  height: auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   color: #fff;
   text-align: left;
   font-family: Montserrat;
-  font-size: 24pt;
+  font-size: 21pt;
   flex-grow: 0;
   flex-shrink: 1;
 
@@ -114,20 +124,20 @@ div.us-cont div.content{
 
 div.content div.main {
   margin-bottom: 30px;
-  line-height: 1.7;
+  line-height: 2;
 }
 
 div.content div.small{
   width: 250px;
   height: auto;
   text-align: center;
-  font-size: 22pt;
+  font-size: 26pt;
   padding: 0 20px;
   margin: 0;
 
 }
 
-div.content div.small:nth-child(3){
+div.content div.small:nth-child(4){
   width: 15%;
 }
 

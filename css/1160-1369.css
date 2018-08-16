@@ -4,9 +4,9 @@
 	}
 
 
-	header a {
-		font-size: 16pt ;
-		margin: 20px 1% 0 1%;
+	#navMenu li {
+		padding: 16px 1%;
+  		font-size: 16pt
 	}
 
 	div.logo  {
@@ -55,15 +55,15 @@ div.array div.arr:nth-child(2){
 
 	div.us-cont div.content{
 		width: 930px;
-		 font-size: 19pt;
+		 font-size: 13.5pt;
 	}
 
 	div.content div.small{
 		width: 180px;
-		font-size: 17pt;
+		font-size: 20pt;
 	}
 
-	div.content div.small:nth-child(3){
+	div.content div.small:nth-child(4){
 		  width: 5%;
 	}
 
@@ -74,7 +74,7 @@ section.VK_FB_INST{
 /*VK*/
 
 div.vk-decor{
-  top: 825px;
+  top: 850px;
 }
 
 div.vk-decor div{
