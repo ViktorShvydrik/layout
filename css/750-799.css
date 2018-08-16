@@ -1,0 +1,15 @@
+@media screen and (max-width: 799px) and (min-width:750px) {
+
+div.us-cont {
+	height: 10%;
+}
+
+div.content div.main {
+  margin-bottom: 17%;
+}
+
+div.vk{
+  margin-top: 4%;
+}
+
+}

@@ -1,13 +1,13 @@
-@media screen and (max-width: 1059px) and (min-width:960px) {
+@media screen and (max-width: 1159px) and (min-width:1060px) {
 	header {
 	  height: 60px;
 	}
 
-
-	header a {
-		font-size: 12pt ;
-		margin: 20px 1% 0 1%;
+	#navMenu li {
+		padding: 16px 1%;
+  		font-size: 14pt
 	}
+
 
 	div.logo  {
 	  height: auto;
@@ -41,42 +41,45 @@
 	}
 
 	div.array{
-	  margin-left: 3%;
+	  margin-left: 6%;
 	}
 
 	div.array div.arr:nth-child(1){
-	  top: 26px;
+	  top: 30px;
 	}
 	div.array div.arr:nth-child(2){
-	  top: 13px;
+	  top: 15px;
 	}
 
 
 	div.us-cont div.content{
-		 font-size: 17pt;
+		 font-size: 12.5pt;
 	}
 
 	div.content div.small{
 		width: 135px;
-		font-size: 14pt;
+		font-size: 17pt;
 		
 	}
 
-	div.content div.small:nth-child(3){
-		  width: 0.5%;
+	div.content div.small:nth-child(4){
+		  width: 5%;
 	}
 
 
+
 section.VK_FB_INST{
-  height: 2850px;
+  height: 3000px;
 }
 
 /*VK*/
 
 div.vk-decor{
-  left: 79%;
-  top: 805px;
-  width: 220px;
+  top: 860px;
+}
+
+div.vk-decor div{
+  width: 16%;
 }
 
 div.vk-decor img{
@@ -86,33 +89,35 @@ div.vk-decor img{
 
 div.vk div.left div{
   width: 130px;
-  height: 500px;
+  height: 630px;
 }
 
 
 div.vk div.right div.header_vk{
   margin-top: 70px;
-  margin-left: 12%;
-  margin-right: 20%;
-  font-size: 22pt;
+  margin-left: 8%;
+  margin-right: 17%;
+  font-size: 28pt;
 }
 
 div.vk div.right div.button {
   width: 23%;
-  margin-top: 320px;
+  margin-top: 190px;
   margin-left: 0px
 
 }
 
 div.vk div.right div.logoVK{
+	margin-top: 60px;
   width: 20%;
- height: 800px;
+ height: 900px;
 
 }
 
 div.vk div.right div.string{
+	margin-top: 20px;
   font-size: 14pt;
-  width: 45%;
+  width: 44%;
 
 }
 
@@ -126,32 +131,35 @@ div.vk div.right div.stringEl div:nth-child(1){
 
 
 div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
-  width: 130px;
+  width: 110px;
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
   width: 80px;
    } 
 div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
-  width: 140px;
+  width: 80px;
    }   
 
 /*FB*/
 
 div.FB-decor{
-  width: 25%;
-  left: 75.2%;
-  top: 1850px;
+  top: 1880px;
  
 }
 
+div.FB-decor div{
+  width: 23%;
+}
+
 div.fb{
-  height: 600px;
+  height: 720px;
   font-size: 14pt;
+
 }
 
 div.FBString {
 
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 div.FBString div.FBStringEl {
@@ -196,32 +204,34 @@ div.logoFB {
 
 div.header_fb div.button{
   width: 230px;
+   
 }
 
-
+  
 /*inst*/
 
 div.inst{
   display: flex;
   flex-flow: row nowrap;
-  height: 1050px;
+  height: 1130px;
 }
 
 div.inst div.decor{
-  margin-top: 470px;
+  margin-top: 450px;
   width: 25%;
   
 }
 
 div.logoInst{
-	margin-top: 430px;
-	margin-right: 14%;
-	font-size: 16pt;
+	margin-top: 470px;
+	margin-right: 17%;
+	font-size: 18pt;
 }
 
 div.logoInst div:first-child{
   width: 250px;
 }
+
 
 div.InstString{
   margin-top: 280px;
@@ -252,12 +262,19 @@ div.InstStringEl div:nth-child(1){
 }
 
 div.InstStringEl div:nth-child(2){
-margin-right: 35px;
-width: 65px;
+margin-right: 45px;
+width: 75px;
 }
 
 div.logoInst button {
-    margin-top: 10px; 
+    margin-top: 10px;  
+}
+
+/*OK+DEV*/
+
+
+section.ok_dev{
+  height: 1520px;
 }
 
 
@@ -274,7 +291,7 @@ div.ok {
 
 div.OKString{
   margin-top: 260px;
-  margin-right: 9%;
+  margin-right: 3%;
   margin-left: 80px;
 }
 
@@ -290,23 +307,23 @@ width: 80px;
 }
 
 div.OKtStringEl div:nth-child(2){
-  width: 350px;
+  width: 450px;
 }
 
 div.logoOK {
-  margin-top: 340px;
+  margin-top: 310px;
   margin-right: 0;
   font-size: 18pt;
 }
 
 div.decorOK{
   margin-top: 160px;
-  width: 180px;
+  width: 200px;
   height: 600px;
 }
 
 div.decorOK img{
-  width: 180px;
+  width: 200px;
 }
 
 /*DEV*/
@@ -319,7 +336,7 @@ div.dev{
 div.contentDev {
   width: 100%;
   height: 970px;
-  margin-top: 100px;
+  margin-top: 230px;
 }
 
 div.titleDev {
@@ -340,12 +357,12 @@ div.buttonDev {
 
 
 div.buttonDev div{
-  margin-left: 11%;
+  margin-left: 9%;
   margin-bottom: 25px;
 }
 
 div.devTwo{
-  height: 320px;
+  height: 350px;
 }
 
 div.devEars{
@@ -367,7 +384,7 @@ div.leftDev div.devEl:nth-child(1){
 }
 
 div.screenMac{
-  flex: 1 1 500px;
+  flex: 1 1 550px;
   margin-top: 2px;
   background-image: url(../img/dev/mac-screen580.png);
 }
@@ -397,11 +414,157 @@ div.key{
   background-image: url(../img/dev/mac-keyboard580.png);
 }
 
+
+section.market_cont {
+  height: 1930px;
+}
+
+/*MARKETING*/
+
+div.market {
+  height: 700px;
+  margin-top: 100px;
+ 
+}
+
+div.titleMark{
+  width: 100%;
+  color: #5e4b8b;
+
+  font-size: 36pt;
+}
+
+div.titleMark i{
+  font-size: 28pt;
+}
+
+div.buttonMark{
+  width: 100%;
+}
+
+div.buttonMark button {
+  width: 230px; 
+  height: 55px;
+  font-size: 16pt;
+  margin-top: 70px;
+}
+
+div.reasons {
+  margin-top: 90px;
+  width: 100%;
+
+}
+
+div.block{
+  width: 26%;
+  padding: 5px 30px;
+}
+
+div.blockEl{
+  width: 100%;
+  height: 220px;
+  font-size: 16px;
+}
+
+div.blockEl div:nth-child(1){
+  width: 62%;
+  height: 45px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+div.blockEl div:nth-child(2){
+  width: 23%;
+  height: 45px;
+  padding-right: 10px;
+  padding-top: 0;
+  font-size: 28pt;
+}
+
+div.blockEl div:nth-child(3){
+  width: 100%;
+  height: 140px;
+  padding-left: 15px;
+  font-size: 7.5pt;
+}
+
+/*CONTACTS*/
+
+div.cont {
+  width: 100%;
+  height: 900px;
+  padding-top: 330px;
+}
+
+div.cont div.contener{
+  width: 100%;
+  height: 800px;
+}
+
+div.cont div.contener div.contacts{
+	width: 30%;
+  height: 800px;
+  margin-left: 60px;
+  
+}
+
+div.cont div.contener div.titleCont{
+  font-size: 36pt;
+  font-weight: 800;
+}
+
+div.stringCont{
+  margin-top: 330px;
+  font-size: 16pt;
+}
+
+
+div.titleSt{
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+
+div.contInf div:first-child{
+  margin-right: 10px;
+  width: 40px;
+}
+
+div.map{
+  width: 70%;
+
+}
+
+div.adress{
+  margin-top: 170px;
+  margin-left: 125px;
+}
+
+div.adress div:first-child{
+    font-size: 28pt;
+   font-weight: 600;
+}
+
+div.adress div:last-child{
+  font-size: 16pt;
+}
+
+div.imgMap{
+  width: 82%;
+  height: 1800px;
+  margin-right: 2%;
+  margin-bottom: 3%;
+}
+
 button{
-  font-size: 15pt;
-  width: 200px;
+  font-size: 18pt;
+  width: 230px;
   height: 70px;
   
+}
+
+div.mobile{
+  display: none;
 }
 
 }

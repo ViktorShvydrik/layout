@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) and (min-width:850px) {
+
+div.content div.main {
+  margin-bottom: 17%;
+}
+
+div.vk{
+  margin-top: 9%
+}
+
+}
