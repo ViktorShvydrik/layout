@@ -114,7 +114,7 @@ div.vk div.right div.logoVK{
 }
 
 div.vk div.right div.string{
-  font-size: 18pt;
+  font-size: 17pt;
   width: 42%;
 
 }
@@ -129,7 +129,7 @@ div.vk div.right div.stringEl div:nth-child(1){
 
 
 div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
-  width: 140px;
+  width: 80px;
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
   width: 80px;

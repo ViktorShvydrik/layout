@@ -112,7 +112,7 @@ div.vk div.right div.logoVK{
 
 div.vk div.right div.string{
 	margin-top: 0;
-  font-size: 14pt;
+  font-size: 13pt;
   width: 43%;
 
 }
@@ -127,7 +127,7 @@ div.vk div.right div.stringEl div:nth-child(1){
 
 
 div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
-  width: 110px;
+  width: 80px;
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
   width: 80px;

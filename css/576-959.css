@@ -21,7 +21,7 @@ header{
 	display: none;
 }
 
-.mobile{
+div.mobile{
 	display: block;
 }
 
@@ -131,7 +131,7 @@ div.vk-decor{
 div.vk{
   display: flex;
   width: 100%;
-  height: 850px;
+  height: 82vw;
   background: none;
   margin-top: 13%
 }
@@ -212,7 +212,7 @@ div.FB-decor{
 
 div.fb{
 	width: 100%;
-	height: 620px;
+	height: 65vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -225,7 +225,7 @@ div.FBString {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  margin-left: 190px;
+  margin-left: 230px;
   margin-top: 20px;
   order: 2;
 }
@@ -234,7 +234,6 @@ div.FBString div.FBStringEl {
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 30px;
-  
 }
 
 div.FBString div.FBStringEl div{
@@ -261,7 +260,7 @@ div.header_fb{
   position: static;
   font-size: 20pt;
   padding-left: 400px;
-  padding-top: 40px;
+  padding-top: 5%;
   order: 1;
 }
 
@@ -291,9 +290,6 @@ div.inst a{
   margin-top: 240px;
 }
 
-div.inst div.decor{
-  margin-top: 510px;
-}
 
 div.logoInst{
   margin-top: 0;
@@ -350,17 +346,18 @@ order: 1;
 /*OK*/
 
 div.ok {
-  height: 900px;
+  height: 87vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
   align-items: center;
   color: #e77719;
   font-size: 20pt;
+
 }
 
 div.ok a {
-  margin-top: 150px;
+  margin-top: 0;
 }
 
 div.OKString{
@@ -411,26 +408,27 @@ div.ok button {
 /*DEV*/
 
 div.dev{
-  height: 750px;
+  height: 80vw;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: flex-end;
+  align-items: flex-end;
   background-image: none;
   font-size: 12pt;
+
 }
 
 div.dev a {
-  margin-top: 80px;
+  margin-top: 0;
 }
 
 div.contentDev {
   width: 100%;
-  height: 630px;
-  margin-top: 120px;
+  height: 64vw;
   margin-bottom: 0;
   display: flex;
   flex-flow: row wrap;
-  align-content: flex-start;
+  justify-content: flex-start;
+ 
 }
 
 div.titleDev {
@@ -440,11 +438,13 @@ div.titleDev {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 div.titleDev div {
   margin-top: 0;
   margin-left: 0;
+  
 }
 
 div.buttonDev {
@@ -454,8 +454,8 @@ div.buttonDev {
   flex-flow: column nowrap;
   align-items: flex-end;
   position: relative;
-  top: -120px;
-  left: -130px;
+  top: -150px;
+  left: -180px;
   order: 4;
   
 }
@@ -564,7 +564,7 @@ div.rightDev div.devEl:nth-child(4) div:first-child{
 
 div.market {
   height: 900px;
-  margin-top: 100px;
+  margin-top: 30px;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -612,7 +612,7 @@ div.blockEl div:nth-child(1){
 }
 
 div.blockEl div:nth-child(2){
-  width: 28%;
+  width: 24%;
   height: 60px;
   font-size: 36pt;
   text-align: right;
@@ -657,19 +657,20 @@ div.blockEl div:nth-child(3){
 
 div.cont {
   width: 100%;
-  height: 970px;
+  height: 90vw;
   background-image: none;
-  padding-top: 170px;
+  padding-top: 200px;
 }
 
 div.cont div.contener{
   width: 100%;
-  height: 970px;
+  height: 90vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   color: black;
-  
+  position: relative;
+  top: -90px;
 }
 
 div.cont div.contener div.contacts{
@@ -677,17 +678,17 @@ div.cont div.contener div.contacts{
   height: 850px;
   margin-left: 0;
   text-align: center;
-
+  padding-bottom: 100px;
 }
 
 div.cont div.contener div.titleCont{
-  font-size: 48pt;
+  font-size: 32pt;
   font-weight: 800;
 }
 
 div.stringCont{
   margin-top: 20px;
-  font-size: 20pt;
+  font-size: 16pt;
     display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -739,7 +740,7 @@ div.stringContEl:nth-child(3) div.contInf div:first-child{
 
 div.titleSt{
   font-weight: 600;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 div.contInf{
@@ -750,7 +751,7 @@ div.contInf{
 
 div.contInf div:first-child{
   margin-right: 20px;
-  width: 50px;
+  width: 40px;
 }
 
 div.stringContEl:nth-child(2) div.contInf  div:first-child{
@@ -759,26 +760,25 @@ div.stringContEl:nth-child(2) div.contInf  div:first-child{
 
 div.map{
   flex: 2 1 100%;
-  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 div.adress{
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 0;
   flex: 1 1 100%;
   text-align: center;
 }
 
 div.adress div:first-child{
-    font-size: 36pt;
+    font-size: 28pt;
    font-weight: 600;
 }
 
 div.adress div:last-child{
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 div.imgMap{
@@ -792,7 +792,8 @@ div.imgMap{
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 50px;
-  overflow: none;
+  overflow: visible;
+  margin-bottom: 0;
 }
 
 
