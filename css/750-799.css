@@ -41,7 +41,7 @@ div.header_fb{
 }
 
 div.inst{
-  height: 100vw;
+  height: 90vw;
 }
 
 div.logoInst{
@@ -57,7 +57,7 @@ div.InstString{
 
 div.ok {
 	font-size: 18pt;
-	height: 86vw;
+	height: 80vw;
 }
 
 div.OKtStringEl {
@@ -97,7 +97,7 @@ div.devTwo{
 }
 
 div.buttonDev {
-  top: -210px;
+  top: -90px;
   left: -180px;
 }
 

@@ -1,5 +1,11 @@
 @media screen and (max-width: 1599px) and (min-width:1370px) {
-	header {
+	
+
+body{
+    font-size: 24pt;
+  }
+
+  header {
 	  height: 60px;
 	}
 
@@ -62,7 +68,7 @@
 /*VK*/
 
 div.vk-decor{
-  top: 820px;
+  top: 880px;
 }
 
 div.vk-decor div{
@@ -123,7 +129,7 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
 /*FB*/
 
 div.FB-decor{
-  top: 1910px;
+  top: 1940px;
  
 }
 

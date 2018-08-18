@@ -1,5 +1,9 @@
 @media screen and (max-width: 1059px) and (min-width:960px) {
-	header {
+	body{
+    font-size: 16pt;
+  }
+
+  header {
 	  height: 60px;
 	}
 
@@ -74,7 +78,7 @@ section.VK_FB_INST{
 /*VK*/
 
 div.vk-decor{
-  top: 860px;
+  top: 880px;
 }
 
 div.vk-decor div{

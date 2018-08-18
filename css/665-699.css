@@ -1,7 +1,10 @@
 @media screen and (max-width: 699px) and (min-width:665px) {
 
 #menu-icon{
-	position: absolute;
+  top: 40px;
+}
+
+#nav{
   top: 40px;
 }
 
