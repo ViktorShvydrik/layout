@@ -1,5 +1,14 @@
 @media screen and (max-width: 629px) and (min-width:600px) {
 
+#menu-icon{
+  top: 35px;
+}
+
+#nav{
+  top: 35px;
+  left: 20px;
+}
+
 div.us-cont {
   height: 10%;
 }
@@ -98,7 +107,7 @@ width: 50px;
 
 div.ok {
   font-size: 16pt;
-  height: 85vw;
+  height: 82vw;
 }
 
 div.logoOK {

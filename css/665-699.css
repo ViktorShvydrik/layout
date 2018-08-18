@@ -1,5 +1,10 @@
 @media screen and (max-width: 699px) and (min-width:665px) {
 
+#menu-icon{
+	position: absolute;
+  top: 40px;
+}
+
 div.us-cont {
 	height: 10%;
 }

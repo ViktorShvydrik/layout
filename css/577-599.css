@@ -5,6 +5,15 @@ body{
   background-size: cover;
 }
 
+#menu-icon{
+  top: 35px;
+}
+
+#nav{
+  top: 60px;
+  left: 0;
+}
+
 div.us-cont {
   height: 118vw;
 }
@@ -270,7 +279,6 @@ div.cont {
  div.cont div.contener{
   height: 45vw;
   position: static;
-  top: -350px;
  }
 
 div.cont div.contener div.contacts{

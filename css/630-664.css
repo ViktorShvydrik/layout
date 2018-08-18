@@ -1,5 +1,13 @@
 @media screen and (max-width: 664px) and (min-width:630px) {
 
+#menu-icon{
+  top: 40px;
+}
+
+#nav{
+  top: 40px;
+}
+
 div.us-cont {
   height: 10%;
 }
@@ -19,7 +27,7 @@ div.content div.small b{
 }
 
 div.vk{
-  margin-top: 7%;
+  margin-top: 3%;
 }
 
 div.vk div.right div.header_vk{
@@ -64,7 +72,7 @@ div.header_fb{
 }
 
 div.inst{
-  height: 88vw;
+  height: 90vw;
 }
 
 div.logoInst{
@@ -88,7 +96,7 @@ width: 50px;
 
 div.ok {
   font-size: 16pt;
-  height: 74vw;
+  height: 79vw;
 }
 
 div.logoOK {
