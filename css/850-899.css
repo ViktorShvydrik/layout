@@ -1,11 +1,75 @@
-@media screen and (max-width: 900px) and (min-width:850px) {
+@media screen and (max-width: 899px) and (min-width:850px) {
 
 div.content div.main {
   margin-bottom: 17%;
 }
 
 div.vk{
-  margin-top: 9%
+  margin-top: 9%;
+  height: 81vw;
+}
+
+div.header_fb{
+	padding-top: 7%;
+}
+
+div.ok {
+  height: 84vw;
+}
+
+div.dev{
+  height: 74vw;
+  font-size: 12pt;
+  
+}
+
+div.contentDev {
+  width: 100%;
+  height: 70vw;
+  margin-top: 50px;
+}
+
+div.titleDev {
+  font-size: 22pt;
+}
+
+div.leftDev div.devEl{
+  height: 140px;
+}
+
+div.rightDev div.devEl:nth-child(1), div.rightDev div.devEl:nth-child(2){
+  margin-top: 0;
+  margin-bottom: 10px;
+  height: 110px;
+}
+
+div.market {
+  height: 900px;
+  margin-top: 30px;
+}
+
+div.reasons {
+  margin-top: 20px;
+}
+
+div.block{
+  width: 40%;
+  padding: 20px 22px;
+}
+
+div.cont {
+  height: 90vw;
+  padding-top: 120px;
+
+}
+
+ div.cont div.contener{
+ 	height: 85vw;
+ 	top: -80px;
+ }
+
+div.cont div.contener div.contacts{
+	padding-bottom: 70px;
 }
 
 }

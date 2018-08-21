@@ -1,5 +1,9 @@
 @media screen and (max-width: 1059px) and (min-width:960px) {
-	header {
+	body{
+    font-size: 16pt;
+  }
+
+  header {
 	  height: 60px;
 	}
 
@@ -74,7 +78,7 @@ section.VK_FB_INST{
 /*VK*/
 
 div.vk-decor{
-  top: 860px;
+  top: 880px;
 }
 
 div.vk-decor div{
@@ -112,7 +116,7 @@ div.vk div.right div.logoVK{
 
 div.vk div.right div.string{
 	margin-top: 0;
-  font-size: 14pt;
+  font-size: 13pt;
   width: 43%;
 
 }
@@ -127,7 +131,7 @@ div.vk div.right div.stringEl div:nth-child(1){
 
 
 div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
-  width: 110px;
+  width: 80px;
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
   width: 80px;

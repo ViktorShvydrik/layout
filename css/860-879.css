@@ -1,0 +1,12 @@
+@media screen and (max-width: 879px) and (min-width:860px) {
+div.dev{
+  height: 74vw;
+  font-size: 12pt;
+  
+}
+
+div.contentDev {
+  height: 69vw;
+  margin-top: 50px;
+}
+}

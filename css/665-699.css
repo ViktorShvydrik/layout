@@ -1,0 +1,282 @@
+@media screen and (max-width: 699px) and (min-width:665px) {
+
+#menu-icon{
+  top: 40px;
+}
+
+#nav{
+  top: 40px;
+}
+
+div.us-cont {
+	height: 10%;
+}
+
+div.content div.main {
+  margin-bottom: 8%;
+  font-size: 13pt;
+}
+
+div.content div.small{
+  font-size: 14pt;
+  margin-bottom: 30px;
+}
+
+div.content div.small b{
+	font-size: 24pt;
+}
+
+div.vk{
+  margin-top: 7%;
+}
+
+div.vk div.right div.header_vk{
+  font-size: 18pt;
+}
+
+div.vk div.right div.string{
+  font-size: 13pt;
+  margin-top: 6%;
+}
+
+div.vk div.right div.stringEl{
+  margin-bottom: 5px;
+}
+
+div.fb{
+	font-size: 15pt;
+}
+
+div.FBString {
+  margin-top: 0px;
+}
+
+div.FBString div.FBStringEl {
+  margin-bottom: 15px;
+}
+
+div.FBString div.FBStringEl div{
+  align-self: center;
+  margin-right: 15px
+}
+
+div.FBString div.FBStringEl div:nth-child(1){
+	width: 45px;
+}
+
+div.header_fb{
+	width: 290px;
+	height: 120px;
+	padding-top: 5%;
+	font-size: 16pt;
+}
+
+div.inst{
+  height: 88vw;
+}
+
+div.logoInst{
+	font-size: 18pt;
+  margin-right: 40px;
+}
+
+div.InstString{
+  margin-top: 30px;
+  font-size: 16pt;
+  margin-left: 100px;
+}	
+
+div.InstStringEl div{
+  margin-bottom: 10px;
+}
+
+div.ok {
+	font-size: 16pt;
+	height: 80vw;
+}
+
+div.logoOK {
+	width: 510px;
+	margin-bottom: 15px;
+}
+
+div.OKtStringEl {
+  margin-bottom: 20px;
+}
+
+div.OKtStringEl div:nth-child(1){
+width: 50px;
+margin-right: 30px;
+}
+
+	div.dev{
+  height: 72vw;
+  font-size: 12pt;
+  
+}
+
+div.contentDev {
+  width: 100%;
+  height: 68vw;
+  margin-top: 50px;
+}
+
+div.titleDev {
+  font-size: 17pt;
+}
+
+div.devTwo{
+  height: 400px;
+}
+
+div.buttonDev {
+  top: -120px;
+  left: -160px;
+}
+
+div.leftDev div.devEl{
+  height: 75px;
+}
+
+div.rightDev div.devEl:nth-child(1), div.rightDev div.devEl:nth-child(2){
+  margin-top: 0;
+  margin-bottom: 10px;
+  height: 70px;
+}
+
+div.rightDev div.devEl:nth-child(3), div.rightDev div.devEl:nth-child(4){
+  height: 75px;
+  margin-bottom: 10px;
+}
+
+div.rightDev div.devEl div:nth-child(1){
+	width: 40px;
+  margin-bottom: 0;
+}
+
+div.devEl div:nth-child(1){
+	width: 30px;
+  margin-bottom: 0;
+}
+
+div.market {
+  height: 900px;
+  margin-top: 0px;
+}
+
+div.reasons {
+  margin-top: 20px;
+}
+
+div.block{
+  width: 40%;
+  padding: 5px 22px;
+}
+
+div.blockEl div:nth-child(1){
+  width: 60%;
+  height: 50px;
+  font-size: 12pt;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+div.blockEl div:nth-child(2){
+  width: 24%;
+  height: 50px;
+  font-size: 32pt;
+  text-align: right;
+  padding-top: 0;
+}
+
+div.blockEl div:nth-child(3){
+  width: 100%;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 15px;
+  font-size: 7pt;
+}
+
+div.market {
+  height: 900px;
+  margin-top: 0px;
+}
+
+div.reasons {
+  margin-top: 20px;
+}
+
+div.block{
+  width: 40%;
+  padding: 10px 22px;
+}
+
+div.blockEl div:nth-child(1){
+  width: 60%;
+  height: 50px;
+  font-size: 14pt;
+  padding-left: 20px;
+  padding-top: 0;
+}
+
+div.blockEl div:nth-child(2){
+  width: 24%;
+  height: 50px;
+  font-size: 32pt;
+  text-align: right;
+  padding-top: 0;
+}
+
+div.blockEl div:nth-child(3){
+  width: 100%;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 15px;
+  font-size: 7pt;
+}
+
+div.cont {
+  height: 60vw;
+  padding-top: 100px;
+
+}
+
+ div.cont div.contener{
+ 	height: 60vw;
+ 	top: -250px;
+ }
+
+div.cont div.contener div.contacts{
+	padding-bottom: 0;
+}
+
+div.stringCont{
+  margin-top: 10px;
+  }
+
+div.adress div:first-child{
+    font-size: 24pt;
+   font-weight: 600;
+}
+
+div.adress div:last-child{
+  font-size: 18pt;
+}
+
+div.imgMap{
+  align-self: center;
+  position: relative;
+  top: -60px;
+  width: 90vw;
+  height: 400px;
+}
+
+ button{
+  	margin-top: 10px;
+    width: 170px; 
+    height: 54px;
+    border-radius: 20px;
+    font-size: 13pt;
+}
+
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 959px) and (min-width:576px) {
+@media screen and (max-width: 959px) and (min-width:577px) {
 
 body{
 	background-image: url(../img/mobil/bg960.png);
@@ -11,7 +11,15 @@ body{
 
 #menu-icon{
 	position: absolute;
+  top: 50px;
+  left: 20px;
   display: block;
+}
+
+#nav{
+  position: absolute;
+  top: 50px;
+  left: 30px;
 }
 
 header{
@@ -36,6 +44,8 @@ div.mobile{
    font-size: 14px;
     font-weight: bold;
 }
+
+
 
 section.us{
 	height: auto;
@@ -424,7 +434,7 @@ div.dev a {
 
 div.contentDev {
   width: 100%;
-  height: 64vw;
+  height: 69vw;
   margin-bottom: 0;
   display: flex;
   flex-flow: row wrap;

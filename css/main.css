@@ -1,4 +1,7 @@
+
+
 body{
+  font-size: 28pt;
   font-family: Montserrat, sans-serif;
   color: #fff;
   max-width: 1920px;
@@ -150,7 +153,7 @@ section.VK_FB_INST{
 div.vk-decor{
   width: 100%;
   position: absolute;
-  top: 800px;
+  top: 860px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
@@ -251,13 +254,13 @@ div.vk div.right div.stringEl div:nth-child(1){
 
 
 div.vk div.right div.stringEl:nth-child(1) div:nth-child(1) {
-  width: 220px;
+  width: 100px;
    }
 div.vk div.right div.stringEl:nth-child(2) div:nth-child(1) {
-  width: 165px;
+  width: 100px;
    } 
 div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
-  width: 240px;
+  width: 100px;
    }   
 
 /*FB*/
@@ -265,7 +268,7 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
 div.FB-decor{
   width: 100%;
   position: absolute;
-  top: 1940px;
+  top: 2000px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
@@ -846,4 +849,143 @@ img {
 
 div.mobile{
   display: none;
+}
+
+/*POPUP*/
+
+.popupbg{
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: DarkSlateBlue  ;
+        
+    }
+    .popup.show{
+        z-index: 102;
+    }
+    .popupbg.show{
+        opacity: .6;
+        z-index: 101;
+        transition: opacity .5s linear;
+
+    }
+    .popupbg.fade{
+        opacity: 0;
+    }
+    .fade{
+        opacity: 0;
+        transition: opacity .5s linear;
+        z-index: -1;
+    }
+
+.form-group {
+        margin-bottom: 1rem;
+    }
+    .form-group label{
+        font-size: .97rem;
+        font-weight: 700;    
+    }
+
+ .popup{
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: black;
+    display: none;
+  }
+  .popup-dilog {
+    margin: 0 auto;
+    width: 30.3rem;
+    height: 30.3rem;
+    background: url("../img/popup/popup-bg.png")no-repeat center top;
+    background-size: cover;
+    border-radius: 1rem;
+}
+  .popup-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    pointer-events: auto;
+    border-radius: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  .popup-header{
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+  .popup-title{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    padding-top: 5rem;
+  }
+  .popup-title{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    padding-top: 5rem;
+    margin-left: 8rem;
+  }
+  .popup-body form{
+    margin-top: 2.7rem;
+    text-align: center;
+  }
+
+  .close{
+    float: right;
+    cursor: pointer;
+    background: url(../img/popup/close-btn.png) no-repeat center top;
+    background-size: cover;
+    padding: .7rem;
+    border: none;
+    margin: .4rem 0 .4rem 5rem; 
+    }
+    .popup-btn{
+        color: white;
+        background: linear-gradient(45deg, #6448c1 0%,#207cca 77%,#5582c7 100%);
+        padding: .8rem 2rem;
+        margin-top: 3.3rem;
+        display: inline-block;
+        font-size: .9rem;
+        border-radius: .8rem;
+        box-shadow: 0rem 0rem 1rem rgba(50, 50, 50, 1);
+        cursor: pointer;
+    }
+
+    .form-control {
+
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom: 2px solid blue;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+input {
+    overflow: visible;
 }

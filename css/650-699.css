@@ -1,0 +1,37 @@
+@media screen and (max-width: 699px) and (min-width:650px) {
+
+div.us-cont {
+	height: 10%;
+}
+
+div.content div.main {
+  margin-bottom: 4%;
+  font-size: 13pt;
+}
+
+div.vk{
+  margin-top: 6%;
+}
+
+div.vk div.right div.header_vk{
+  font-size: 18pt;
+}
+
+div.vk div.right div.string{
+  font-size: 13pt;
+  margin-top: 6%;
+}
+
+div.vk div.right div.stringEl{
+  margin-bottom: 5px;
+}
+
+ button{
+  	margin-top: 10px;
+    width: 170px; 
+    height: 54px;
+    border-radius: 20px;
+    font-size: 13pt;
+}
+
+}
