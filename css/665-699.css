@@ -27,7 +27,7 @@ div.content div.small b{
 }
 
 div.vk{
-  margin-top: 7%;
+  margin-top: 4%;
 }
 
 div.vk div.right div.header_vk{
@@ -67,7 +67,7 @@ div.FBString div.FBStringEl div:nth-child(1){
 div.header_fb{
 	width: 290px;
 	height: 120px;
-	padding-top: 5%;
+	padding-top: 0;
 	font-size: 16pt;
 }
 

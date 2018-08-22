@@ -5,7 +5,7 @@ div.us-cont {
 }
 
 div.content div.main {
-  margin-bottom: 13%;
+  margin-bottom: 8%;
 }
 
 div.vk{
@@ -84,7 +84,7 @@ div.dev{
 
 div.contentDev {
   width: 100%;
-  height: 68vw;
+  height: 66vw;
   margin-top: 50px;
 }
 
@@ -155,13 +155,13 @@ div.blockEl div:nth-child(3){
 
 div.cont {
   height: 75vw;
-  padding-top: 100px;
+  padding-top: 140px;
 
 }
 
  div.cont div.contener{
  	height: 65vw;
- 	top: -180px;
+ 	top: -160px;
  }
 
 div.cont div.contener div.contacts{
