@@ -84,7 +84,7 @@ div.vk div.right div.stringEl:nth-child(3) div:nth-child(1) {
 }
 
 div.FBString {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 div.FBString div.FBStringEl {
@@ -140,7 +140,7 @@ div.inst button{
 
 div.ok {
   font-size: 14pt;
-  height: 85vw;
+  height: 84vw;
 }
 
 div.logoOK {
@@ -225,7 +225,7 @@ div.devEl div:nth-child(1){
 }
 
 div.market {
-  height:  80vw;
+  height:  107vw;
   margin-top: 0px;
 }
 
@@ -272,7 +272,7 @@ div.blockEl div:nth-child(3){
 
 div.cont {
   height: 55vw;
-  padding-top: 200px;
+  padding-top: 30px;
 
 }
 
@@ -291,7 +291,11 @@ div.stringCont{
 
   div.contInf div:first-child{
   margin-right: 20px;
-  width: 30px;
+  width: 25px;
+}
+
+div.map{
+  line-height: 25px;
 }
 
 div.adress div:first-child{
@@ -308,7 +312,7 @@ div.imgMap{
   position: relative;
   top: -40px;
   width: 75vw;
-  height: 400px;
+  height: auto;
 }
 
  button{

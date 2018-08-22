@@ -67,7 +67,7 @@ div.FBString div.FBStringEl div:nth-child(1){
 div.header_fb{
   width: 290px;
   height: 110px;
-  padding-top: 5%;
+  padding-top: 0;
   font-size: 16pt;
 }
 
